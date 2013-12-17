@@ -1,0 +1,39 @@
+{
+  "objectName" : "geocachecraftingstation",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/geocachecraftingstation.config",
+    "filter" : [ "geocachecraftingstation" ]
+  },
+  "printable" : false,
+  "description" : "Someone could use this to mark planets and landmarks.",
+  "shortdescription" : "Geocache Crafting Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "600",
+
+  "apexDescription" : "A table with a bunch of tools for a craftsman.",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+
+  "inventoryIcon" : "geocachecraftingstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geocachecraftingstation.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

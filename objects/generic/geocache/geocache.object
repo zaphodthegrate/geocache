@@ -1,0 +1,42 @@
+{
+  "objectName" : "geocache",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : "200",
+  "description" : "A small container popular with explorers.",
+  "shortdescription" : "Geocache",
+  "race" : "generic",
+
+  "apexDescription" : "A geocache! Someone was here?",
+  "avianDescription" : "A locatable container. Who has marked this?",
+  "floranDescription" : "SSSomething tassty touched thisss...",
+  "glitchDescription" : "Geometric. Location saved.",
+  "humanDescription" : "'X' marks the spot!",
+  "hylotlDescription" : "This spot is important to someone.",
+
+  "inventoryIcon" : "geocacheicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geocache.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

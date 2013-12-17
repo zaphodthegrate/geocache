@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 1 },
+	{ "item" : "geotransmitter", "count" : 4}
+  ],
+  "output" : {
+    "item" : "geolocatorpanel",
+    "count" : 1
+  },
+  "groups" : [ "geocachecraftingstation", "objects", "locators", "all" ]
+}

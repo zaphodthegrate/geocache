@@ -1,0 +1,7 @@
+{
+  "itemName" : "geotransmitter",
+  "rarity" : "Common",
+  "inventoryIcon" : "geotransmitter.png",
+  "description" : "A critical component for all geocache items.",
+  "shortdescription" : "GeoTransmitter"
+}
