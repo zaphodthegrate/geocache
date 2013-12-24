@@ -1,0 +1,44 @@
+{
+  "objectName" : "geocachecommon",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "crafting", 
+  "objectType" : "container",
+  "price" : "200",
+  "description" : "A small container popular with explorers.",
+  "shortdescription" : "Geocache (common)",
+  "race" : "generic",
+  
+  "apexDescription" : "A geocache! Someone was here?",
+  "avianDescription" : "A locatable container. Who has marked this?",
+  "floranDescription" : "SSSomething tassty touched thisss...",
+  "glitchDescription" : "Geometric. Location saved.",
+  "humanDescription" : "'X' marks the spot!",
+  "hylotlDescription" : "This spot is important to someone.",
+
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  
+  "inventoryIcon" : "geocachecommonicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geocachecommon.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "recipeGroup" : "cooking",
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/windowconfig/geocachecommon.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

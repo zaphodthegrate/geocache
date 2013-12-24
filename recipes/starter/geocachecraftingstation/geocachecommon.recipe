@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "geocachecommonbox", "count" : 1 },
+	{ "item" : "geotransmitter", "count" : 1}
+  ],
+  "output" : {
+    "item" : "geocachecommon",
+    "count" : 1
+  },
+  "groups" : [ "geocachecraftingstation", "objects", "geocaches", "all" ]
+}
