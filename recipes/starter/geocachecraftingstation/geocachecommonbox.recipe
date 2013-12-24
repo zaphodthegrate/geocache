@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "geocachecommonbox",
+    "count" : 1
+  },
+  "groups" : [ "geocachecraftingstation", "objects", "materials", "all" ]
+}

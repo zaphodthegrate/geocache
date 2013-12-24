@@ -1,0 +1,7 @@
+{
+  "itemName" : "geocacheblankdatalog",
+  "rarity" : "Common",
+  "inventoryIcon" : "geocacheblankdatalog.png",
+  "description" : "Keeps track of planetary data.",
+  "shortdescription" : "Blank Datalog"
+}

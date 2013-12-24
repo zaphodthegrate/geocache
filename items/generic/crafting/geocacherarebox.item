@@ -1,0 +1,7 @@
+{
+  "itemName" : "geocacherarebox",
+  "rarity" : "Rare",
+  "inventoryIcon" : "geocacherarebox.png",
+  "description" : "A small container capable of holding rare items.",
+  "shortdescription" : "Geocache Box (rare)"
+}

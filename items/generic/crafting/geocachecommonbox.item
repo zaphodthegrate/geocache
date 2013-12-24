@@ -1,0 +1,7 @@
+{
+  "itemName" : "geocachecommonbox",
+  "rarity" : "Common",
+  "inventoryIcon" : "geocachecommonbox.png",
+  "description" : "A small container capable of holding common items.",
+  "shortdescription" : "Geocache Box (common)"
+}
