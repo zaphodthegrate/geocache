@@ -2,8 +2,8 @@
   "objectName" : "geocachecommon",
   "printable" : false,
   "rarity" : "Common",
-  "category" : "crafting", 
-  "objectType" : "container",
+  "category" : "tools", 
+  "objectType" : "wire",
   "price" : "200",
   "description" : "A small container popular with explorers.",
   "shortdescription" : "Geocache (common)",
@@ -15,19 +15,15 @@
   "glitchDescription" : "Geometric. Location saved.",
   "humanDescription" : "'X' marks the spot!",
   "hylotlDescription" : "This spot is important to someone.",
-
-  "lightColor" : [229, 218, 207],
-  "flickerDistance" : 0.5,
-  "flickerStrength" : 0.1,
   
   "inventoryIcon" : "geocachecommonicon.png",
   "orientations" : [
     {
-      "dualImage" : "geocachecommon.png:default",
+      "dualImage" : "geocachecommon.png:<color>.<frame>",
 
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "frames" : 2,
+      "animationCycle" : 2,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -35,10 +31,13 @@
     }
   ],
   
-  "recipeGroup" : "cooking",
-  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
-  "slotCount" : 2,
-  "uiConfig" : "/interface/windowconfig/geocachecommon.config",
-  "frameCooldown" : 67,
-  "autoCloseCooldown" : 3600
+  "animation" : "/objects/generic/geocachecommon/geocachecommon.animation",
+  "animationParts" : {
+    "geocache" : "geocachecommon.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/generic/geocachecommon/geocachecommon.lua" ],
+  "scriptDelta" : 5
+
 }

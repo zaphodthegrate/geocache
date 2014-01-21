@@ -1,0 +1,7 @@
+{
+  "itemName" : "geocachecodeddatalog",
+  "rarity" : "Common",
+  "inventoryIcon" : "geocachecodeddatalog.png",
+  "description" : "Keeps track of planetary data.",
+  "shortdescription" : "Coded Datalog"
+}

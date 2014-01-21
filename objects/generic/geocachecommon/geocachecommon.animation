@@ -1,0 +1,44 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "geocacheState" : {
+        "default" : "inactive",
+        "states" : {
+          "inactive" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          },
+          "active" : {
+            "frames" : 2,
+            "cycle" : 0.7,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "geocache" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "geocacheState" : {
+            "inactive" : {
+              "properties" : {
+                "image" : "<partImage>:default.default"
+              }
+            },
+
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
