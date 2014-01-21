@@ -21,7 +21,7 @@
     {
       "dualImage" : "geocachecommon.png:<color>.<frame>",
 
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [0, 0],
       "frames" : 2,
       "animationCycle" : 2,
 
@@ -35,9 +35,9 @@
   "animationParts" : {
     "geocache" : "geocachecommon.png"
   },
-  "animationPosition" : [-8, 0],
+  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/generic/geocachecommon/geocachecommon.lua" ],
-  "scriptDelta" : 5
+  "scriptDelta" : 480
 
 }
